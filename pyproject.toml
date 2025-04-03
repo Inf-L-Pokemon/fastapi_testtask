@@ -9,6 +9,11 @@ readme = "README.md"
 python = "^3.12"
 fastapi = {extras = ["all"], version = "^0.115.12"}
 uvicorn = "^0.34.0"
+sqlalchemy = "^2.0.40"
+pyshorteners = "^1.0.1"
+asyncpg = "^0.30.0"
+alembic = "^1.15.2"
+pydantic-settings = "^2.8.1"
 
 
 [build-system]
